@@ -1,0 +1,34 @@
+ p {
+     color: red;
+
+ }
+
+ h2 {
+     color: orange;
+
+ }
+
+ .projects {
+     color: blue;
+
+ }
+
+ #services {
+     color: green;
+
+ }
+
+ #contact {
+     color: orange;
+
+ }
+
+ body {
+     text-align: center;
+
+ }
+
+ ul {
+     list-style: none;
+
+ }

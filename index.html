@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=~, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -13,27 +14,27 @@
     <header>
         <nav>
             <span>@Tech</span>
-            <ol>
+            <ul>
                 <li><a href="#projects">projects</a></li>
                 <li><a href="#service">Service</a></li>
                 <li><a href="#contact">Contact Me</a></li>
-            </ol>
+                </ol>
         </nav>
     </header>
     <main>
 
         <section id="projects">
-            <h2>my projects</h2>
+            <h2 class="projects">my projects</h2>
             <p> personal projects</p>
         </section>
 
         <section id="services">
-            <h2>my services</h2>
+            <h2 class="services">my services</h2>
             <p>website creation</p>
         </section>
 
         <section id="contact">
-            <h2>tara samahan moko gumawa</h2>
+            <h2 class="contact">tara samahan moko gumawa</h2>
             <form action="#">
                 <label for="name">name</label>
                 <input type="text" id="name" name="name" required>
@@ -42,7 +43,7 @@
                 <input type="email" name="email" id="email" required>
 
                 <label for="message">message</label>
-                <textarea name="Meassage" id="Message" rows="1" required></textarea>
+                <textarea name="message" id="message" rows="1" required></textarea>
 
                 <button type="submit">send message</button>
             </form>
