@@ -7,3 +7,21 @@ let number = "09123456789";
 console.log('NUMBER: ' + number);
 let address = "Barangay X Estado, victorias City";
 console.log('ADDRESS: ' + address);
+
+function greet(name) {
+    return `Good Morning ${name}!`;
+}
+console.log(greet("Rene"));
+
+
+
+
+function mdas(num1, num2) {
+    let m = num1 * num2;
+    let d = num1 / num2;
+    let a = num1 + num2;
+    let sub = num1 - num2;
+
+    return (`values: ${num1} and ${num2}.\n product ${m},\n quotient ${d}, \n sum ${a},\n difference ${sub}`);
+}
+console.log(mdas(5, 3))
