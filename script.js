@@ -51,5 +51,3 @@ contactHeading.textContent = "Let's Connect!";
 
 projectHeading.textContent = "My Projects";
 
-//.style
-heading.style.color = "purple";
