@@ -25,3 +25,31 @@ function mdas(num1, num2) {
     return (`values: ${num1} and ${num2}.\n product ${m},\n quotient ${d}, \n sum ${a},\n difference ${sub}`);
 }
 console.log(mdas(5, 3))
+
+//query selector
+
+const heading = document.querySelector("h1")
+
+console.log(heading);
+
+
+const contactHeading = document.querySelector("#contact h2");
+
+console.log(contactHeading);
+
+
+const projectHeading = document.querySelector("#services h2");
+
+console.log(projectHeading);
+
+
+//Text Context
+
+heading.textContent = "My portfolio";
+
+contactHeading.textContent = "Let's Connect!";
+
+projectHeading.textContent = "My Projects";
+
+//.style
+heading.style.color = "purple";
