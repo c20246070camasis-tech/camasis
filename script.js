@@ -1,3 +1,4 @@
+
 console.log('Hello world.');
 const Myname = "CJ H CAMASIS";
 console.log('NAME: ' + Myname);
@@ -42,7 +43,7 @@ console.log(projectHeading);
 
 //Text Context
 
-heading.textContent = "My portfolio";
+heading.textContent = "Deja Brew !!";
 contactHeading.textContent = "Let's Connect!";
 serviceHeading.textContent = "My Services";
 projectHeading.textContent = "My Projects";
