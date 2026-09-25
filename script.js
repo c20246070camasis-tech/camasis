@@ -17,7 +17,7 @@ console.log(projectHeading);
 
 //Text Context
 
-heading.textContent = "Deja Brew !!";
+heading.textContent = "MY PROJECT!!";
 contactHeading.textContent = "Let's Connect!";
 serviceHeading.textContent = "My Services";
 projectHeading.textContent = "My Projects";
@@ -51,3 +51,5 @@ toggleButton.addEventListener("click", function () {
 
     }
 });
+
+

@@ -1,6 +1,5 @@
 body {
     text-align: center;
-    background-color: aqua;
 }
 
 ul {
@@ -11,68 +10,49 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 nav ul {
     display: flex;
-    gap: 40px;
+    gap: 20px;
     padding: 0;
     margin: 0;
-    font-size: 20px;
-    font-family: Impact;
-
-
-
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    padding: 50px;
-    margin: 50px;
+    gap: 35px;
 
+    margin: 50px;
 }
 
 main section {
     flex: 1;
     min-width: 280px;
-    border: 30px solid blueviolet;
-    padding: 20px;
-    padding: 30px;
-    font-style: italic;
+    border: 2px solid black;
+    padding: 20px
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: aqua;
+
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-h1 {
-    font-size: 80px;
-    color: red;
-    border-radius: 10px;
-    border: 30 solid blueviolet;
-}
-
-h2 {
-    font-size: 50px;
-    color: yellow;
-}
-
-
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     nav {
-        flex-direction: row;
+        flex-direction: column;
         gap: 15px;
     }
 
@@ -83,9 +63,9 @@ h2 {
 
 
     main {
-        padding: 30px;
-        margin: 15px;
-        gap: 40px;
+        padding: 15px;
+        margin: 10px;
+        gap: 20px;
 
     }
 
@@ -96,7 +76,7 @@ h2 {
 
     h1 {
         font-size: 80px;
-        color: black;
+        color: red;
     }
 
     span {
@@ -108,7 +88,7 @@ h2 {
 @media (max-width: 768px) {
     h2 {
         font-size: 48px;
-        color: blueviolet;
+        color: blue;
     }
 
 }
@@ -118,7 +98,7 @@ nav a {
 }
 
 nav a:hover {
-    color: green;
+    color: pink;
 }
 
 button {
