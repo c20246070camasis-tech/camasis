@@ -44,6 +44,19 @@ main section {
 
 }
 
+#services {
+    color: rgb(70, 45, 7);
+
+}
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: green;
+
+}
+
 form {
     display: flex;
     flex-direction: column;
